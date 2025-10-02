@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RE:SPARK with Games on AWS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap');
+        
+        .neon-glow {
+            text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff, 0 0 20px #00ffff;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .cyber-border {
+            border: 2px solid transparent;
+            background: linear-gradient(45deg, #00ffff, #ff00ff) border-box;
+            -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: destination-out;
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Exo 2', sans-serif; background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);">
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);">
+    <tr>
+        <td align="center">
+            <table cellpadding="0" cellspacing="0" border="0" width="600" style="max-width: 600px; background-color: #0f0f23; border: 1px solid #00ffff; box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);">
+
+                <!-- 헤더 -->
+                <tr>
+                    <td style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px 20px; text-align: center; position: relative;">
+                        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><defs><pattern id=\"grid\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\"><path d=\"M 10 0 L 0 0 0 10\" fill=\"none\" stroke=\"%2300ffff\" stroke-width=\"0.5\" opacity=\"0.3\"/></pattern></defs><rect width=\"100\" height=\"100\" fill=\"url(%23grid)\"/></svg></div>
+                        <h1 style="color: #00ffff; margin: 0; font-size: 28px; font-weight: 900; font-family: 'Orbitron', monospace; text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; position: relative; z-index: 1;">
+                            RE:SPARK with Games on AWS
+                        </h1>
+                        <div style="color: #ffffff; font-size: 14px; margin-top: 10px; opacity: 0.9; position: relative; z-index: 1;">NEXT-LEVEL STARTUP SOLUTIONS</div>
+                    </td>
+                </tr>
+
+                <!-- 인사말 -->
+                <tr>
+                    <td style="padding: 30px 20px; background: linear-gradient(180deg, #0f0f23 0%, #1a1a2e 100%);">
+                        <p style="font-size: 16px; line-height: 1.8; color: #e0e0e0; margin: 0 0 20px 0;">
+                            안녕하세요!
+                        </p>
+                        
+                        <p style="font-size: 16px; line-height: 1.8; color: #e0e0e0; margin: 0;">
+                            게임 산업의 혁신을 도울 <span style="background: linear-gradient(45deg, #00ffff, #ff00ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 600;">혁신적인 스타트업</span>과의 
+                            특별한 만남에 여러분을 초대합니다. AWS와 함께하는 이벤트에 참여하세요!
+                        </p>
+                    </td>
+                </tr>
+
+                <!-- 이벤트 개요 -->
+                <tr>
+                    <td style="background: #1a1a2e; padding: 25px 20px;">
+                        <h2 style="color: #00ffff; font-size: 22px; margin: 0 0 25px 0; font-family: 'Orbitron', monospace; text-shadow: 0 0 5px #00ffff;">
+                            EVENT OVERVIEW
+                        </h2>
+                        
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="background: linear-gradient(135deg, #0f0f23 0%, #2a2a3e 100%); border-radius: 12px; border: 1px solid #00ffff; box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);">
+                            <tr>
+                                <td style="padding: 25px;">
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                        <tr>
+                                            <td style="padding: 12px 0; font-weight: 600; color: #00ffff; width: 150px; font-family: 'Orbitron', monospace;">TARGET</td>
+                                            <td style="padding: 12px 0 12px 20px; color: #e0e0e0;">Games on AWS 이벤트 참여 고객사와 스타트업 간 비즈니스 매칭 및 협업</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 12px 0; font-weight: 600; color: #00ffff; font-family: 'Orbitron', monospace;">DATE</td>
+                                            <td style="padding: 12px 0 12px 20px; color: #e0e0e0;">2025.10.14(화) 오후 1시 ~ 5시</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 12px 0; font-weight: 600; color: #00ffff; font-family: 'Orbitron', monospace;">LOCATION</td>
+                                            <td style="padding: 12px 0 12px 20px; color: #e0e0e0;">코엑스 2층 스타트업브랜치</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 12px 0; font-weight: 600; color: #00ffff; vertical-align: top; font-family: 'Orbitron', monospace;">STARTUPS</td>
+                                            <td style="padding: 12px 0 12px 20px; color: #e0e0e0;">비즈니스를 도울 수 있는 주요 스타트업 5개사</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        
+                        <!-- 스타트업 소개 -->
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="background: linear-gradient(135deg, #0f0f23 0%, #2a2a3e 100%); border-radius: 12px; margin-top: 20px; border: 1px solid #ff00ff; box-shadow: 0 0 20px rgba(255, 0, 255, 0.2);">
+                            <tr>
+                                <td style="padding: 25px;">
+                                    <h3 style="color: #ff00ff; margin: 0 0 20px 0; font-size: 18px; font-family: 'Orbitron', monospace; text-shadow: 0 0 5px #ff00ff;">PARTICIPATING STARTUPS</h3>
+                                    
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                        <tr>
+                                            <td style="padding: 15px; border: 1px solid #00ffff; text-align: center; width: 80px; background: rgba(0, 255, 255, 0.1);">
+                                                <img src="https://notifly.tech/_next/static/media/expanded-logo.110fd5ab.svg" alt="Notifly Logo" style="max-width: 60px; max-height: 30px; filter: brightness(0) invert(1);">
+                                            </td>
+                                            <td style="padding: 15px; border: 1px solid #00ffff; background: rgba(0, 255, 255, 0.05);">
+                                                <strong style="color: #00ffff; font-family: 'Orbitron', monospace;">Notifly</strong><br>
+                                                <span style="color: #e0e0e0;">유저 리텐션 향상과 마케팅 비용 절감을 위한 메시지 자동화 솔루션 - 복잡한 엔지니어링 없이 합리적 비용으로 운영 및 비용절감 가능</span><br>
+                                                <small style="color: #888; font-style: italic;">레퍼런스: 캐시슬라이드, 플레이오 등</small>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 15px; border: 1px solid #ff00ff; text-align: center; background: rgba(255, 0, 255, 0.1);">
+                                                <img src="https://cdn.prod.website-files.com/5eccc23534031ced48168fa9/64cb0a6a8700d259e718a3cd_AB180%20logo.png" alt="AB180 Logo" style="max-width: 60px; max-height: 30px; filter: brightness(0) invert(1);">
+                                            </td>
+                                            <td style="padding: 15px; border: 1px solid #ff00ff; background: rgba(255, 0, 255, 0.05);">
+                                                <strong style="color: #ff00ff; font-family: 'Orbitron', monospace;">AB180</strong><br>
+                                                <span style="color: #e0e0e0;">광고 성과 측정 정확도 향상과 IAA 수익 극대화를 위한 게임 특화 솔루션 - Airbridge(MMP)와 Airflux(AI 기반 수익화)로 새로운 성장 동력 확보</span><br>
+                                                <small style="color: #888; font-style: italic;">레퍼런스: 넥슨, 카카오게임즈, 컴투스, NHN, 웹젠, 라이온하트스튜디오, 후야호, 엔스테이지 등</small>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 15px; border: 1px solid #00ffff; text-align: center; background: rgba(0, 255, 255, 0.1);">
+                                                <img src="https://typecast.ai/kr/learn/wp-content/uploads/2022/09/Artboard-1.png" alt="Typecast Logo" style="max-width: 60px; max-height: 30px; filter: brightness(0) invert(1);">
+                                            </td>
+                                            <td style="padding: 15px; border: 1px solid #00ffff; background: rgba(0, 255, 255, 0.05);">
+                                                <strong style="color: #00ffff; font-family: 'Orbitron', monospace;">Typecast</strong><br>
+                                                <span style="color: #e0e0e0;">게임 콘텐츠 제작 비용 절감과 다국어 확장 지원을 위한 AI 음성 솔루션 - 600여개 음성 캐릭터로 빠른 콘텐츠 제작, 10초 커스텀보이스로 브랜드보이스 생성 및 차별화</span><br>
+                                                <small style="color: #888; font-style: italic;">레퍼런스: 넥슨, 그램퍼스 등</small>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 15px; border: 1px solid #ff00ff; text-align: center; background: rgba(255, 0, 255, 0.1);">
+                                                <img src="https://www.argosidentity.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.fb05e934.png&w=256&q=75" alt="Argos Identity Logo" style="max-width: 60px; max-height: 30px; filter: brightness(0) invert(1);">
+                                            </td>
+                                            <td style="padding: 15px; border: 1px solid #ff00ff; background: rgba(255, 0, 255, 0.05);">
+                                                <strong style="color: #ff00ff; font-family: 'Orbitron', monospace;">Argos Identity</strong><br>
+                                                <span style="color: #e0e0e0;">글로벌 게임 서비스 보안 강화와 부정사용자 차단을 위한 eKYC 솔루션 - 200여개국 신분증 인식으로 글로벌 진출 지원, 24시간 자동화로 운영 효율성 극대화</span><br>
+                                                <small style="color: #888; font-style: italic;">레퍼런스: 넥스페이스(MSU), SKT, 카카오엔터테인먼트 등</small>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 15px; border: 1px solid #00ffff; text-align: center; background: rgba(0, 255, 255, 0.1);">
+                                                <img src="https://framerusercontent.com/images/iAUcrpDyyvbQxgyiAQsfrHgOt8.png?scale-down-to=512&width=1223&height=490" alt="STC Lab Logo" style="max-width: 60px; max-height: 30px; filter: brightness(0) invert(1);">
+                                            </td>
+                                            <td style="padding: 15px; border: 1px solid #00ffff; background: rgba(0, 255, 255, 0.05);">
+                                                <strong style="color: #00ffff; font-family: 'Orbitron', monospace;">STCLab</strong><br>
+                                                <span style="color: #e0e0e0;">K8s 운영 환경을 실제 자동화 하고, 40%의 비용 절감과 6.7배의 빠른 응답을 실증하는 방법 - ML기반 K8s 운영자동화 솔루션</span><br>
+                                                <small style="color: #888; font-style: italic;">레퍼런스 : B금융사, O2O플랫폼, L금융자회사, K플랫폼, L SI 등</small>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <!-- 현장 미팅 신청 버튼 -->
+                <tr>
+                    <td style="padding: 40px 20px; background: linear-gradient(135deg, #1a1a2e 0%, #0f0f23 100%); text-align: center; position: relative;">
+                        <h2 style="color: #ffffff; margin: 0 0 25px 0; font-size: 24px; font-family: 'Orbitron', monospace; text-shadow: 0 0 10px #ffffff;">
+                            🚀 지금 바로 신청하세요!
+                        </h2>
+                        
+                        <table cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+                            <tr>
+                                <td style="background: linear-gradient(45deg, #00ffff, #ff00ff, #00ffff); border-radius: 50px; padding: 4px; box-shadow: 0 0 30px rgba(0, 255, 255, 0.5), 0 0 60px rgba(255, 0, 255, 0.3);">
+                                    <table cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td style="background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 100%); border-radius: 46px; padding: 20px 40px;">
+                                                <a href="https://pulse.aws/survey/RJQDA2LU?p=0" style="color: #00ffff; text-decoration: none; font-weight: 900; font-size: 20px; font-family: 'Orbitron', monospace; text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; letter-spacing: 2px;">⚡ REGISTER FOR MEETING ⚡</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        
+                        <p style="color: #e0e0e0; margin: 20px 0 0 0; font-size: 14px; opacity: 0.8;">
+                            사전 신청 시 추가 혜택 제공! 🎁
+                        </p>
+                    </td>
+                </tr>
+
+                <!-- 참여 혜택 -->
+                <tr>
+                    <td style="padding: 25px 20px; background: linear-gradient(180deg, #1a1a2e 0%, #0f0f23 100%);">
+                        <h2 style="color: #ff00ff; font-size: 22px; margin: 0 0 25px 0; font-family: 'Orbitron', monospace; text-shadow: 0 0 5px #ff00ff;">
+                            EXCLUSIVE BENEFITS
+                        </h2>
+                        
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="background: linear-gradient(135deg, #ff00ff, #00ffff); border-radius: 15px; margin-bottom: 20px; padding: 2px;">
+                            <tr>
+                                <td>
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="background: #0f0f23; border-radius: 13px;">
+                                        <tr>
+                                            <td style="padding: 25px; color: #e0e0e0; text-align: center;">
+                                                <h3 style="margin: 0 0 15px 0; font-size: 20px; color: #00ffff; font-family: 'Orbitron', monospace; text-shadow: 0 0 5px #00ffff;">SPECIAL GIVEAWAY</h3>
+                                                <p style="margin: 0; font-size: 16px;">방문 고객 대상 <Strong>AirPods Pro 3세대</Strong>, 스타벅스 Giftcard 등 현장 추첨 증정</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                                <td width="50%" style="padding-right: 10px;">
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="background: linear-gradient(135deg, #0f0f23 0%, #2a2a3e 100%); border-radius: 12px; border: 1px solid #00ffff;">
+                                        <tr>
+                                            <td style="padding: 20px; text-align: center;">
+                                                <h4 style="margin: 0 0 10px 0; color: #00ffff; font-family: 'Orbitron', monospace;">BUSINESS MATCHING</h4>
+                                                <p style="margin: 0; color: #e0e0e0; font-size: 14px;">스타트업과의 미팅 및 협업 논의</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td width="50%" style="padding-left: 10px;">
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="background: linear-gradient(135deg, #0f0f23 0%, #2a2a3e 100%); border-radius: 12px; border: 1px solid #ff00ff;">
+                                        <tr>
+                                            <td style="padding: 20px; text-align: center;">
+                                                <h4 style="margin: 0 0 10px 0; color: #ff00ff; font-family: 'Orbitron', monospace;">MEETING SPACE</h4>
+                                                <p style="margin: 0; color: #e0e0e0; font-size: 14px;">편안한 환경과 커피 및 다과 제공</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+
+
+                <!-- 푸터 -->
+                <tr>
+                    <td style="padding: 25px 20px; text-align: center; background: #0c0c0c; color: #888;">
+                        <p style="margin: 0 0 15px 0; font-size: 14px; color: #00ffff; font-family: 'Orbitron', monospace;">
+                            CONTACT INFO
+                        </p>
+                        <p style="margin: 0; font-size: 14px; color: #e0e0e0;">
+                            이벤트 관련 문의: cheolkan@amazon.com
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
